@@ -1,11 +1,21 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index --presets=env"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Roman Kameniev",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "config": "^3.2.2",
+    "express": "^4.17.1",
+    "google-spreadsheet": "^2.0.7"
+  },
+  "devDependencies": {},
+  "description": ""
 }
